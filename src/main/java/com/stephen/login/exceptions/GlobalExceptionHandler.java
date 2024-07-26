@@ -17,6 +17,7 @@ import org.springframework.web.method.annotation.MethodArgumentTypeMismatchExcep
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
 import com.stephen.login.dto.ErrorObject;
+import com.stephen.login.exceptions.user.UserExistsException;
 
 @RestControllerAdvice 
 public class GlobalExceptionHandler extends ResponseEntityExceptionHandler{
